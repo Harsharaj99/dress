@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@700&family=Exo+2:ital,wght@0,200;0,700;1,100;1,600&family=Great+Vibes&family=Lobster&family=Pacifico&family=Prata&display=swap');
+
+*{
+    font-family: 'Lobster', cursive;
+    
+}
+#navbar{
+    background-color: black;
+    
+}
+.collapse .navbar-nav .nav-item .nav-link{
+    color: white;
+}
+.navbar .container-fluid .navbar-brand{
+    color: white;
+}
+
+/* .home{
+    background-image: url(./images/d.jpg);
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+    
+} */
+.home {
+    background-image: url('./images/d.jpg');
+    background-repeat: no-repeat;
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0; 
+    animation: fade-in 3s ease-in-out forwards; 
+    
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+}
+}
+#home1 {
+  background-color: transparent;
+  animation: beatFade 1s infinite;
+}
+
+@keyframes beatFade {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+}
+}
+.homecontent{
+    text-align: center;
+    color: black;
+    margin-top: 17%;
+    margin-left: 100px;
+    position: absolute;
+}
+.homecontent h5{
+    font-size: 20px;
+    margin-top: -50px;
+    
+    
+    
+}
+.homecontent h1{
+    
+    padding: 10px;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px #000000;
+    
+}
+#about{
+    width: 100%;
+    height: 400px;
+    background-color:black;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 20px;
+    font-size: 10px;
+    text-shadow: 2px 2px 4px white;
+
+}
+.about span{
+    color: grey;
+    font-size: 70px;
+    text-shadow: 2px 2px 4px white;
+
+}h1 i{
+    font-size: 60px;
+}
+h3 i{
+    font-size: 60px;
+}
+h2 i{
+    font-size: 60px;
+}
+.lc{
+    text-align: center;
+    padding: 30px;
+}
+.carousel-caption h4{
+    color: #000000;
+    text-align: center;
+    /* background-color: aliceblue; */
+   
+}
+.cat h1{
+    text-align: center;
+    padding: 5px;
+    margin-top: 50px;
+}
+.col-6 .card-title{
+    text-align: center;
+}
+.so h1{
+    text-align: center;
+    padding: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.so .card-title{
+    text-align: center;
+}
+.card-body{
+    text-align: center;
+}
+.so .row{
+    margin-left: 50px;
+    
+}
+#secondhalf p{
+  font-size: 10px ;
+}
+#anim p{
+  font-size: 10px;
+
+}
+#anim h5{
+  font-size: 15px;
+}
+#anim1 {
+    background-color: white;
+    animation: beatFade 2s infinite;
+  }
+  
+  @keyframes beatFade {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+  }
+  }
+  #anim2 {
+    background-color: white;
+    animation: beatFade 2s infinite;
+  }
+  
+  @keyframes beatFade {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+  }
+  }
+  #anim3 {
+    background-color: white;
+    animation: beatFade 2s infinite;
+  }
+  
+  @keyframes beatFade {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+  }
+  }
+  #anim4 {
+    background-color: white;
+    animation: beatFade 2s infinite;
+  }
+  
+  @keyframes beatFade {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+  }
+  }
+  #anim5 {
+    background-color: white;
+    animation: beatFade 2s infinite;
+  }
+  
+  @keyframes beatFade {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+  }
+  }
+  #anim6 {
+    background-color: white;
+    animation: beatFade 2s infinite;
+  }
+  
+  @keyframes beatFade {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+  }
+  }
+  #anim7 {
+    background-color: white;
+    animation: beatFade 2s infinite;
+  }
+  
+  @keyframes beatFade {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+  }
+  }
+  #anim8 {
+    background-color: white;
+    animation: beatFade 2s infinite;
+  }
+  
+  @keyframes beatFade {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+  }
+  }
+  #anim9 {
+    background-color: white;
+    animation: beatFade 2s infinite;
+  }
+  
+  @keyframes beatFade {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+  }
+  }
+  #anim10 {
+    background-color: white;
+    animation: beatFade 2s infinite;
+  }
+  
+  @keyframes beatFade {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+  }
+  }
+  #anim11 {
+    background-color: white;
+    animation: beatFade 2s infinite;
+  }
+  
+  @keyframes beatFade {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+  }
+  }
+  #anim12 {
+    background-color: white;
+    animation: beatFade 2s infinite;
+  }
+  
+  @keyframes beatFade {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+  }
+  }
+#form{
+    margin-left: 20px;
+}
+.comment h1{
+    text-align: center;
+    padding: 5px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+
+}
+@media only screen and (max-width:600px){
+
+  .homecontent h5{
+    margin-top: 100px;
+    font-size: 10px;
+  }
+.homecontent h1{
+  font-size: 30px;
+  
+}
+.carousel-item{
+  height: 300px;
+  width: 100%;
+}
+#img1{
+  margin-left: -80px;
+}
+#card1{
+  margin-top: 950px;
+}
+.col-6 .col .card{
+  margin-left: -220px;
+}
+#about{
+  width: 100%;
+  height: 250px;
+}
+#about h1 span{
+  font-size: 30px;
+}
+#about h1{
+  font-size: 15px;
+}
+#about h3 span{
+  font-size: 30px;
+}
+#about h3{
+  font-size: 15px;
+}
+#about h2 span{
+  font-size: 30px;
+}
+#about h2{
+  font-size: 15px;
+}
+.footer{
+  margin-top: 60px;
+}
+
+}
+
+
+
+    
